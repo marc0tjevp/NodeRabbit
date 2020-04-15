@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const amqp = require("amqplib/callback_api");
-const NotificationService = require("./notification");
+const NotificationService = require("./NotificationService");
 
 amqp.connect(process.env.MQ_URL, (error, connection) => {
   if (error) throw error;
