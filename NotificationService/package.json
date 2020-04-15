@@ -2,7 +2,7 @@
   "name": "NodeRabbitNotificationService",
   "version": "1.0.0",
   "description": "Simple RabbitMQ Demo using Node.js",
-  "main": "index.js",
+  "main": "MQService.js",
   "author": "Marco van Poortvliet",
   "license": "MIT",
   "private": false,
