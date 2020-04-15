@@ -12,7 +12,7 @@ app.use(bodyParser.json({ extended: true }));
 app.use("/api", routes);
 
 // Listen on port
-let server = app.listen(port, () => {
-  let port = server.address().port;
+const server = app.listen(port, () => {
+  const port = server.address().port;
   console.log("Express: Port " + port);
 });
