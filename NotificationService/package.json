@@ -9,6 +9,6 @@
   "dependencies": {
     "amqp": "^0.2.7",
     "amqplib": "^0.5.5",
-    "nodemailer": "^6.4.16"
+    "nodemailer": "^6.6.1"
   }
 }
